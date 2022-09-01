@@ -1,5 +1,6 @@
-from django.urls import path, include
+from django.urls import path
+from blog.views import index
 
 urlpatterns = [
-    # path('', Home ,name='home')),
+    path('', index, name='index'),
 ]
